@@ -1,0 +1,100 @@
+html{
+  font-size:50%;
+}
+body {
+    font-size: 1.6rem;
+    line-height: 1.6;
+    font-family: 'Source Sans Pro';
+}
+h1 {
+    font-size: 2.5rem;
+    padding: 15px 20px;
+    background-color: #0a3d62;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.container {
+	margin: 50px auto;
+	width: 60%;
+	max-width: 900px;
+}
+#registration {
+	max-width: 600px;
+	margin: 0 auto;
+	padding-bottom: 20px;
+	box-shadow: 0px 1px 4px 0px #3c6382;
+  background-color:#dff9fb;
+}
+#registration h1{
+  font-wight:bold;
+  text-align:center;
+  font-size:30px;
+  color:#82ccdd;
+}
+#registration label{
+  font-weight:bold;
+  color:#0c2461;
+  display: block;
+  padding:10px 15px;
+  font-size:20px;
+}
+.input-requirements {
+  font-size: 15px;
+  font-style: oblique;
+  text-align: left;
+  list-style: disc;
+  list-style-position: outside;
+  max-width: 400px;
+  margin: 10px auto;
+  color:black;
+  font-family: italic;
+}
+
+#registration input[type=text], select {
+  width: 70%;
+  padding: 10px 10px;
+  margin: 10px 10px;
+  display:block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+#registration input[type=email], select {
+  width: 70%;
+  padding: 10px 10px;
+  margin: 10px 10px;
+  display:block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+#registration input[type=password], select {
+  width: 70%;
+  padding: 10px 10px;
+  margin: 10px 10px;
+  display:block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.submit-button{
+  font-weight:bold;
+  width: 70%;
+  background-color: black;
+  color: white;
+  padding: 10px 10px;
+  margin: 10px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  box-sizing: border-box;
+  vertical-align: middle;
+  font-size: 24px;
+  font-family: inherit;
+}
+.submit-button:hover {
+  font-weight:bold;
+  background-color: #5878f2;
+  color:black;
+}

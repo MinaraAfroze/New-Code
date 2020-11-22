@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration</title>
+	<link rel="stylesheet" href="registration.css">
+</head>
+ <body>
+<div class="container">
+	<section id="registration">
+		<h1>Registration</h1>
+     <form>
+       <label for="username">Username</label>
+       <input type="text" id="username" minlength="4" required placeholder=" username..">
+       <label for="email">Email or Phone</label>
+       <input type="email" id="emailorphone" minlength="10" required placeholder="email or phone">
+      <label for="password">Password</label>
+        <input type="password" id="password" maxlength="80" minlength="6" required placeholder=" at least 6 characters">
+       <label for="password_repeat">Password Recheck</label>
+				<input type="password" id="password_repeat" maxlength="80" minlength="6" required> 
+       <br>
+       <button class="submit-button" type="submit"> Submit </button>	
+    </form>
+		</section>
+	</div>
+ </body>
+</html>
